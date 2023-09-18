@@ -1,0 +1,524 @@
+[
+  {
+    "id_CNAE": 1,
+    "CnaeSecao": "A",
+    "CnaeDivisao": 1,
+    "CnaeDescricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS"
+  },
+  {
+    "id_CNAE": 2,
+    "CnaeSecao": "A",
+    "CnaeDivisao": 2,
+    "CnaeDescricao": "PRODUÇÃO FLORESTAL"
+  },
+  {
+    "id_CNAE": 3,
+    "CnaeSecao": "A",
+    "CnaeDivisao": 3,
+    "CnaeDescricao": "PESCA E AQÜICULTURA"
+  },
+  {
+    "id_CNAE": 4,
+    "CnaeSecao": "B",
+    "CnaeDivisao": 5,
+    "CnaeDescricao": "EXTRAÇÃO DE CARVÃO MINERAL"
+  },
+  {
+    "id_CNAE": 5,
+    "CnaeSecao": "B",
+    "CnaeDivisao": 6,
+    "CnaeDescricao": "EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL"
+  },
+  {
+    "id_CNAE": 6,
+    "CnaeSecao": "B",
+    "CnaeDivisao": 7,
+    "CnaeDescricao": "EXTRAÇÃO DE MINERAIS METÁLICOS"
+  },
+  {
+    "id_CNAE": 7,
+    "CnaeSecao": "B",
+    "CnaeDivisao": 8,
+    "CnaeDescricao": "EXTRAÇÃO DE MINERAIS NÃO-METÁLICOS"
+  },
+  {
+    "id_CNAE": 8,
+    "CnaeSecao": "B",
+    "CnaeDivisao": 9,
+    "CnaeDescricao": "ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS"
+  },
+  {
+    "id_CNAE": 9,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 10,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS"
+  },
+  {
+    "id_CNAE": 10,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 11,
+    "CnaeDescricao": "FABRICAÇÃO DE BEBIDAS"
+  },
+  {
+    "id_CNAE": 11,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 12,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DO FUMO"
+  },
+  {
+    "id_CNAE": 12,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 13,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS TÊXTEIS"
+  },
+  {
+    "id_CNAE": 13,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 14,
+    "CnaeDescricao": "CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS"
+  },
+  {
+    "id_CNAE": 14,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 15,
+    "CnaeDescricao": "PREPARAÇÃO DE COUROS E FABRICAÇÃO DE ARTEFATOS DE COURO, ARTIGOS PARA VIAGEM E CALÇADOS"
+  },
+  {
+    "id_CNAE": 15,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 16,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DE MADEIRA"
+  },
+  {
+    "id_CNAE": 16,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 17,
+    "CnaeDescricao": "FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL"
+  },
+  {
+    "id_CNAE": 17,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 18,
+    "CnaeDescricao": "IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES"
+  },
+  {
+    "id_CNAE": 18,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 19,
+    "CnaeDescricao": "FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS"
+  },
+  {
+    "id_CNAE": 19,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 20,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS QUÍMICOS"
+  },
+  {
+    "id_CNAE": 20,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 21,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS"
+  },
+  {
+    "id_CNAE": 21,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 22,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO"
+  },
+  {
+    "id_CNAE": 22,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 23,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS"
+  },
+  {
+    "id_CNAE": 23,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 24,
+    "CnaeDescricao": "METALURGIA"
+  },
+  {
+    "id_CNAE": 24,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 25,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS"
+  },
+  {
+    "id_CNAE": 25,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 26,
+    "CnaeDescricao": "FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA, PRODUTOS ELETRÔNICOS E ÓPTICOS"
+  },
+  {
+    "id_CNAE": 26,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 27,
+    "CnaeDescricao": "FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS"
+  },
+  {
+    "id_CNAE": 27,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 28,
+    "CnaeDescricao": "FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS"
+  },
+  {
+    "id_CNAE": 28,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 29,
+    "CnaeDescricao": "FABRICAÇÃO DE VEÍCULOS AUTOMOTORES, REBOQUES E CARROCERIAS"
+  },
+  {
+    "id_CNAE": 29,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 30,
+    "CnaeDescricao": "FABRICAÇÃO DE OUTROS EQUIPAMENTOS DE TRANSPORTE, EXCETO VEÍCULOS AUTOMOTORES"
+  },
+  {
+    "id_CNAE": 30,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 31,
+    "CnaeDescricao": "FABRICAÇÃO DE MÓVEIS"
+  },
+  {
+    "id_CNAE": 31,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 32,
+    "CnaeDescricao": "FABRICAÇÃO DE PRODUTOS DIVERSOS"
+  },
+  {
+    "id_CNAE": 32,
+    "CnaeSecao": "C",
+    "CnaeDivisao": 33,
+    "CnaeDescricao": "MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS"
+  },
+  {
+    "id_CNAE": 33,
+    "CnaeSecao": "D",
+    "CnaeDivisao": 35,
+    "CnaeDescricao": "ELETRICIDADE, GÁS E OUTRAS UTILIDADES"
+  },
+  {
+    "id_CNAE": 34,
+    "CnaeSecao": "E",
+    "CnaeDivisao": 36,
+    "CnaeDescricao": "CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA"
+  },
+  {
+    "id_CNAE": 35,
+    "CnaeSecao": "E",
+    "CnaeDivisao": 37,
+    "CnaeDescricao": "ESGOTO E ATIVIDADES RELACIONADAS"
+  },
+  {
+    "id_CNAE": 36,
+    "CnaeSecao": "E",
+    "CnaeDivisao": 38,
+    "CnaeDescricao": "COLETA, TRATAMENTO E DISPOSIÇÃO DE RESÍDUOS; RECUPERAÇÃO DE MATERIAIS"
+  },
+  {
+    "id_CNAE": 37,
+    "CnaeSecao": "E",
+    "CnaeDivisao": 39,
+    "CnaeDescricao": "DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS"
+  },
+  {
+    "id_CNAE": 38,
+    "CnaeSecao": "F",
+    "CnaeDivisao": 41,
+    "CnaeDescricao": "CONSTRUÇÃO DE EDIFÍCIOS"
+  },
+  {
+    "id_CNAE": 39,
+    "CnaeSecao": "F",
+    "CnaeDivisao": 42,
+    "CnaeDescricao": "OBRAS DE INFRA-ESTRUTURA"
+  },
+  {
+    "id_CNAE": 40,
+    "CnaeSecao": "F",
+    "CnaeDivisao": 43,
+    "CnaeDescricao": "SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO"
+  },
+  {
+    "id_CNAE": 41,
+    "CnaeSecao": "G",
+    "CnaeDivisao": 45,
+    "CnaeDescricao": "COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS"
+  },
+  {
+    "id_CNAE": 42,
+    "CnaeSecao": "G",
+    "CnaeDivisao": 46,
+    "CnaeDescricao": "COMÉRCIO POR ATACADO, EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS"
+  },
+  {
+    "id_CNAE": 43,
+    "CnaeSecao": "G",
+    "CnaeDivisao": 47,
+    "CnaeDescricao": "COMÉRCIO VAREJISTA"
+  },
+  {
+    "id_CNAE": 44,
+    "CnaeSecao": "H",
+    "CnaeDivisao": 49,
+    "CnaeDescricao": "TRANSPORTE TERRESTRE"
+  },
+  {
+    "id_CNAE": 45,
+    "CnaeSecao": "H",
+    "CnaeDivisao": 50,
+    "CnaeDescricao": "TRANSPORTE AQUAVIÁRIO"
+  },
+  {
+    "id_CNAE": 46,
+    "CnaeSecao": "H",
+    "CnaeDivisao": 51,
+    "CnaeDescricao": "TRANSPORTE AÉREO"
+  },
+  {
+    "id_CNAE": 47,
+    "CnaeSecao": "H",
+    "CnaeDivisao": 52,
+    "CnaeDescricao": "ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES"
+  },
+  {
+    "id_CNAE": 48,
+    "CnaeSecao": "H",
+    "CnaeDivisao": 53,
+    "CnaeDescricao": "CORREIO E OUTRAS ATIVIDADES DE ENTREGA"
+  },
+  {
+    "id_CNAE": 49,
+    "CnaeSecao": "I",
+    "CnaeDivisao": 55,
+    "CnaeDescricao": "ALOJAMENTO"
+  },
+  {
+    "id_CNAE": 50,
+    "CnaeSecao": "I",
+    "CnaeDivisao": 56,
+    "CnaeDescricao": "ALIMENTAÇÃO"
+  },
+  {
+    "id_CNAE": 51,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 58,
+    "CnaeDescricao": "EDIÇÃO E EDIÇÃO INTEGRADA À IMPRESSÃO"
+  },
+  {
+    "id_CNAE": 52,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 59,
+    "CnaeDescricao": "ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA"
+  },
+  {
+    "id_CNAE": 53,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 60,
+    "CnaeDescricao": "ATIVIDADES DE RÁDIO E DE TELEVISÃO"
+  },
+  {
+    "id_CNAE": 54,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 61,
+    "CnaeDescricao": "TELECOMUNICAÇÕES"
+  },
+  {
+    "id_CNAE": 55,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 62,
+    "CnaeDescricao": "ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "id_CNAE": 56,
+    "CnaeSecao": "J",
+    "CnaeDivisao": 63,
+    "CnaeDescricao": "ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO"
+  },
+  {
+    "id_CNAE": 57,
+    "CnaeSecao": "K",
+    "CnaeDivisao": 64,
+    "CnaeDescricao": "ATIVIDADES DE SERVIÇOS FINANCEIROS"
+  },
+  {
+    "id_CNAE": 58,
+    "CnaeSecao": "K",
+    "CnaeDivisao": 65,
+    "CnaeDescricao": "SEGUROS, RESSEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE"
+  },
+  {
+    "id_CNAE": 59,
+    "CnaeSecao": "K",
+    "CnaeDivisao": 66,
+    "CnaeDescricao": "ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS, SEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE"
+  },
+  {
+    "id_CNAE": 60,
+    "CnaeSecao": "L",
+    "CnaeDivisao": 68,
+    "CnaeDescricao": "ATIVIDADES IMOBILIÁRIAS"
+  },
+  {
+    "id_CNAE": 61,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 69,
+    "CnaeDescricao": "ATIVIDADES JURÍDICAS, DE CONTABILIDADE E DE AUDITORIA"
+  },
+  {
+    "id_CNAE": 62,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 70,
+    "CnaeDescricao": "ATIVIDADES DE SEDES DE EMPRESAS E DE CONSULTORIA EM GESTÃO EMPRESARIAL"
+  },
+  {
+    "id_CNAE": 63,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 71,
+    "CnaeDescricao": "SERVIÇOS DE ARQUITETURA E ENGENHARIA; TESTES E ANÁLISES TÉCNICAS"
+  },
+  {
+    "id_CNAE": 64,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 72,
+    "CnaeDescricao": "PESQUISA E DESENVOLVIMENTO CIENTÍFICO"
+  },
+  {
+    "id_CNAE": 65,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 73,
+    "CnaeDescricao": "PUBLICIDADE E PESQUISA DE MERCADO"
+  },
+  {
+    "id_CNAE": 66,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 74,
+    "CnaeDescricao": "OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS"
+  },
+  {
+    "id_CNAE": 67,
+    "CnaeSecao": "M",
+    "CnaeDivisao": 75,
+    "CnaeDescricao": "ATIVIDADES VETERINÁRIAS"
+  },
+  {
+    "id_CNAE": 68,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 77,
+    "CnaeDescricao": "ALUGUÉIS NÃO-IMOBILIÁRIOS E GESTÃO DE ATIVOS INTANGÍVEIS NÃO-FINANCEIROS"
+  },
+  {
+    "id_CNAE": 69,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 78,
+    "CnaeDescricao": "SELEÇÃO, AGENCIAMENTO E LOCAÇÃO DE MÃO-DE-OBRA"
+  },
+  {
+    "id_CNAE": 70,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 79,
+    "CnaeDescricao": "AGÊNCIAS DE VIAGENS, OPERADORES TURÍSTICOS E SERVIÇOS DE RESERVAS"
+  },
+  {
+    "id_CNAE": 71,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 80,
+    "CnaeDescricao": "ATIVIDADES DE VIGILÂNCIA, SEGURANÇA E INVESTIGAÇÃO"
+  },
+  {
+    "id_CNAE": 72,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 81,
+    "CnaeDescricao": "SERVIÇOS PARA EDIFÍCIOS E ATIVIDADES PAISAGÍSTICAS"
+  },
+  {
+    "id_CNAE": 73,
+    "CnaeSecao": "N",
+    "CnaeDivisao": 82,
+    "CnaeDescricao": "SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS ÀS EMPRESAS"
+  },
+  {
+    "id_CNAE": 74,
+    "CnaeSecao": "O",
+    "CnaeDivisao": 84,
+    "CnaeDescricao": "ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL"
+  },
+  {
+    "id_CNAE": 75,
+    "CnaeSecao": "P",
+    "CnaeDivisao": 85,
+    "CnaeDescricao": "EDUCAÇÃO"
+  },
+  {
+    "id_CNAE": 76,
+    "CnaeSecao": "Q",
+    "CnaeDivisao": 86,
+    "CnaeDescricao": "ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA"
+  },
+  {
+    "id_CNAE": 77,
+    "CnaeSecao": "Q",
+    "CnaeDivisao": 87,
+    "CnaeDescricao": "ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL, PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES"
+  },
+  {
+    "id_CNAE": 78,
+    "CnaeSecao": "Q",
+    "CnaeDivisao": 88,
+    "CnaeDescricao": "SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO"
+  },
+  {
+    "id_CNAE": 79,
+    "CnaeSecao": "R",
+    "CnaeDivisao": 90,
+    "CnaeDescricao": "ATIVIDADES ARTÍSTICAS, CRIATIVAS E DE ESPETÁCULOS"
+  },
+  {
+    "id_CNAE": 80,
+    "CnaeSecao": "R",
+    "CnaeDivisao": 91,
+    "CnaeDescricao": "ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL"
+  },
+  {
+    "id_CNAE": 81,
+    "CnaeSecao": "R",
+    "CnaeDivisao": 92,
+    "CnaeDescricao": "ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS"
+  },
+  {
+    "id_CNAE": 82,
+    "CnaeSecao": "R",
+    "CnaeDivisao": 93,
+    "CnaeDescricao": "ATIVIDADES ESPORTIVAS E DE RECREAÇÃO E LAZER"
+  },
+  {
+    "id_CNAE": 83,
+    "CnaeSecao": "S",
+    "CnaeDivisao": 94,
+    "CnaeDescricao": "ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS"
+  },
+  {
+    "id_CNAE": 84,
+    "CnaeSecao": "S",
+    "CnaeDivisao": 95,
+    "CnaeDescricao": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS"
+  },
+  {
+    "id_CNAE": 85,
+    "CnaeSecao": "S",
+    "CnaeDivisao": 96,
+    "CnaeDescricao": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS"
+  },
+  {
+    "id_CNAE": 86,
+    "CnaeSecao": "T",
+    "CnaeDivisao": 97,
+    "CnaeDescricao": "SERVIÇOS DOMÉSTICOS"
+  },
+  {
+    "id_CNAE": 87,
+    "CnaeSecao": "U",
+    "CnaeDivisao": 99,
+    "CnaeDescricao": "ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS"
+  }
+]

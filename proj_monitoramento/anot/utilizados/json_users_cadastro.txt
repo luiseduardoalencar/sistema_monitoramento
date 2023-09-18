@@ -1,0 +1,22 @@
+
+
+{
+  "nome_user": "nome_teste",
+  "nome_orgao": "orgao_teste",
+  "cargo": "cargo_teste",
+  "profissao": "profissao_teste",
+  "nivel_escolaridade": "esc_teste",
+  "sexo": "M",
+  "genero": "Hetero",
+  "cpf": "XXXXXXXX",
+  "mat_orgao": "XXXXXXXX",
+  "unidade_sei": "XXXXXXX",
+  "email_institucional": "XXXXX@XXXX.XXX",
+  "email_pessoal": "XXXX@XXXXY.XXXX",
+  "cnpj": "XXXX-XXXXXX/XXXXX",
+  "nome_empresa": "empresa_teste",
+  "num_contrato": "admin",
+  "nivel_acesso": "senhateste"
+}
+  
+  
