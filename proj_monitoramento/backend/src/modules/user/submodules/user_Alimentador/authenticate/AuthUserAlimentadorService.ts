@@ -30,18 +30,19 @@ class AuthUserAlimentadorService{
         const token = sign(
             {
             cpf: user.cpf_alimentador, 
-            nome:user.nome_alimentador
+            nome:user.nome_alimentador,
+            role: 'alimentador'
             },
             process.env.JWT_SECRET,
             {
-                subject: user.id,
-                expiresIn: "30d"
+                subject: user.id_alimentador,
+                expiresIn: "1d"
             }
         )
 
 
         return {
-            id: user.id,
+            id: user.id_alimentador,
             name: user.nome_alimentador,
             token: token
         }

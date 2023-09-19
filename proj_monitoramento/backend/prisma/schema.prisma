@@ -96,23 +96,16 @@ model User_alimentador {
 }
 
 
-model Codigo_Unico { 
-  id_codigo_unico Int @id @default(autoincrement())
-  cod_unico String  @unique
-  cod_municipio String
-  created_at DateTime? @default(now())
-  updated_at DateTime? @default(now())
- 
-  projetos Projetos[] @relation("cod_unico")
-  @@map("codigo_unico")
-}
-
 model Projetos {
   id_projeto String @id @default(uuid())
-  nome_projeto String 
+  nome_projeto String
+  status String
+  cod_municipio String 
   data_inicio String
   prazo_exec String
   cod_unico String
+  ano_exec String
+  ordem_servico Int @default(autoincrement())
   cod_cnae_secao String
   cod_cnae_divisao String
   nome_alimentador String
@@ -140,8 +133,7 @@ model Projetos {
   agenteAlimentador User_alimentador @relation("ag_alimentador_nome", fields: [nome_alimentador], references: [nome_alimentador])
   agenteAlimentadorByCPF User_alimentador @relation("ag_alimentador_cpf", fields: [cpf_alimentador], references: [cpf_alimentador])
   agenteAlimentadorByCNPJ User_alimentador @relation("ag_alimentador_cnpj", fields: [cnpj_alimentador], references: [cnpj_alimentador])
-  codigoUnico Codigo_Unico @relation("cod_unico", fields: [cod_unico], references: [cod_unico])
-
+  
   @@map("projetos")
 
   

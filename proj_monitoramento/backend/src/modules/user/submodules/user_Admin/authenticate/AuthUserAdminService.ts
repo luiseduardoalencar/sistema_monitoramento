@@ -30,7 +30,8 @@ class AuthUserAdminService{
         const token = sign(
             {
             cpf: user.cpf_admin, 
-            nome:user.nome_admin
+            nome:user.nome_admin,
+            role: 'admin'
             },
             process.env.JWT_SECRET,
             {

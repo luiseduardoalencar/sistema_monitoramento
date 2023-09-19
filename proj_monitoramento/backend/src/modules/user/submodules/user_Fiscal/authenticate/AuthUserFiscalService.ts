@@ -30,12 +30,13 @@ class AuthUserFiscalService{
         const token = sign(
             {
             cpf: user.cpf_fiscal, 
-            nome:user.nome_fiscal
+            nome:user.nome_fiscal,
+            role: 'fiscal'
             },
             process.env.JWT_SECRET,
             {
                 subject: user.id_fiscal,
-                expiresIn: "30d"
+                expiresIn: "1d"
             }
         )
 
