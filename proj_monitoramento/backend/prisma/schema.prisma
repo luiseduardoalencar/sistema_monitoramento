@@ -36,7 +36,7 @@ model User_admin {
 }
 
 model User_fiscal {
-  id_fiscal String @id @default(uuid())
+  id_fiscal String @id @default(uuid()) 
   nome_fiscal String @unique 
   nome_orgao String
   cargo String
@@ -55,10 +55,11 @@ model User_fiscal {
   password String
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
-  
+
   fiscal_nome Projetos[] @relation("ag_fiscal_nome")
   fiscal_cpf Projetos[] @relation("ag_fiscal_cpf")
   fiscal_cnpj Projetos[] @relation("ag_fiscal_cnpj")
+
 
   @@map("user_fiscal")
   
@@ -66,7 +67,7 @@ model User_fiscal {
 }
 
 model User_alimentador {
-  id_alimentador String @id @default(uuid())
+  id_alimentador String @id @default(uuid()) 
   nome_alimentador String @unique
   nome_orgao String
   cargo String
@@ -86,6 +87,7 @@ model User_alimentador {
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
   
+
   alimentador_nome Projetos[] @relation("ag_alimentador_nome")
   alimentador_cpf Projetos[] @relation("ag_alimentador_cpf")
   alimentador_cnpj Projetos[] @relation("ag_alimentador_cnpj")
@@ -97,21 +99,21 @@ model User_alimentador {
 
 
 model Projetos {
-  id_projeto String @id @default(uuid())
-  nome_projeto String
+  id_projeto String @id @default(uuid()) @unique
+  nome_projeto String @unique
   status String
   cod_municipio String 
   data_inicio String
   prazo_exec String
-  cod_unico String
+  cod_unico String @unique
   ano_exec String
   ordem_servico Int @default(autoincrement())
   cod_cnae_secao String
   cod_cnae_divisao String
-  nome_alimentador String
-  cpf_alimentador String 
+  nome_alimentador String @unique
+  cpf_alimentador String
   cnpj_alimentador String
-  nome_fiscal String
+  nome_fiscal String @unique
   cpf_fiscal String
   cnpj_fiscal String
   exec_projeto String
@@ -133,9 +135,31 @@ model Projetos {
   agenteAlimentador User_alimentador @relation("ag_alimentador_nome", fields: [nome_alimentador], references: [nome_alimentador])
   agenteAlimentadorByCPF User_alimentador @relation("ag_alimentador_cpf", fields: [cpf_alimentador], references: [cpf_alimentador])
   agenteAlimentadorByCNPJ User_alimentador @relation("ag_alimentador_cnpj", fields: [cnpj_alimentador], references: [cnpj_alimentador])
-  
+
   @@map("projetos")
 
-  
+  projeto_fiscal Acompanhamento[] @relation("projeto_fiscal")
+  projeto_alimentador Acompanhamento[] @relation("projeto_alimentador")
+  projeto_nome Acompanhamento[] @relation("projeto_nome")
+  projeto_id Acompanhamento[] @relation("projeto_id")
+  projeto_codunico Acompanhamento[] @relation("projeto_codunico")
 }
+model Acompanhamento{
+  id_acompanhamento String @id @default(uuid()) 
+  id_projeto String 
+  nome_projeto String 
+  nome_alimentador String 
+  nome_fiscal String
+  cod_unico String
+  data_inicio String
+  prazo_exec String
+
+  @@map("acompanhamento")
+  projeto_alimentador Projetos @relation("projeto_alimentador", fields: [nome_alimentador], references: [nome_alimentador])
+  projeto_fiscal Projetos @relation("projeto_fiscal", fields: [nome_fiscal], references: [nome_fiscal])
+  projeto_nome Projetos @relation("projeto_nome", fields: [nome_projeto], references: [nome_projeto])
+  projeto_id Projetos @relation("projeto_id", fields: [id_projeto], references: [id_projeto])
+  projeto_codunico Projetos @relation("projeto_codunico", fields: [cod_unico], references: [cod_unico])
+}
+
 

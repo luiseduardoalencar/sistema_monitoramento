@@ -1,4 +1,3 @@
-// UsersRoutes.ts
 import { Router } from "express";
 import {
   CreateUserAdminController,
@@ -17,7 +16,7 @@ import {
   isAdmin,
   isFiscal,
   isAlimentador,
-} from "./routesimports";
+} from "./RoutesImports";
 
 const usersRouter = Router();
 

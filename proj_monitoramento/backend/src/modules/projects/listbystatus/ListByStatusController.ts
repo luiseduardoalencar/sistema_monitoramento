@@ -1,5 +1,5 @@
 import { Response, Request } from "express";
-import { ListByStatusService } from "../services/ListByStatusService";
+import { ListByStatusService } from "./ListByStatusService";
 
 class ListByStatusController{
     async handle(req: Request, res: Response){
